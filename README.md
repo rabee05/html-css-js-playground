@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repository serves as a simple and streamlined environment designed for rapid experimentation with HTML, CSS, and JavaScript. It's particularly suited for individuals looking to quickly test ideas, learn web development techniques, or prototype features without the overhead of a complex setup.
+This repository serves as a simple and streamlined environment designed for rapid experimentation with HTML, CSS, and JavaScript. It's particularly suited for individuals looking to quickly test ideas, learn web development techniques, or prototype features without the overhead of a complex setup. To enhance the development experience, especially when working with a remote server, this environment uses Socket.IO to automatically reload changes in the browser, similar to how Browser-Sync operates.
 
 ## Getting Started
 
