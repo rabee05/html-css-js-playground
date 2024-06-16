@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Welcome to Our Website!</title>
+        <link rel="stylesheet" href="static/style.css" />
+    </head>
+
+    <body>
+        <h1>Welcome to Our Website!</h1>
+
+        <script src="https://cdn.jsdelivr.net/npm/livekit-client/dist/livekit-client.umd.min.js"></script>
+
+        <!-- <script src="static/index.js"></script> -->
+        <script src="static/bundle.js"></script>
+
+        <!-- This is to reload the page on changes when using when working on remote server -->
+        <script src="/socket.io/socket.io.js"></script>
+        <script>
+            var socket = io();
+            socket.on('reload', function () {
+                window.location.reload();
+            });
+        </script>
+    </body>
+</html>
